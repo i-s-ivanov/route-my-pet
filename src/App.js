@@ -33,12 +33,12 @@ function App() {
     });
   };
 
-  // const onLogout = () => {
-  //   setUserInfo({
-  //     isAuthenticated: false,
-  //     user: null,
-  //   });
-  // };
+  const onLogout = () => {
+    setUserInfo({
+      isAuthenticated: false,
+      user: null,
+    });
+  };
 
   return (
     <div id="container">
